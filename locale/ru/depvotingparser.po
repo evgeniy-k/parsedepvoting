@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DepVotingParser 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-19 07:36+0400\n"
-"PO-Revision-Date: 2013-12-19 07:36+0400\n"
+"POT-Creation-Date: 2013-12-19 09:45+0400\n"
+"PO-Revision-Date: 2013-12-19 09:45+0400\n"
 "Last-Translator: Evgeniy Kozin <kozin@localhost>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -19,6 +19,28 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: parser.py:15
-msgid "No input file! Exit."
-msgstr "Нет нужного файла"
+#: parser.py:14
+msgid "No input file with report form! Usage: ./parser.py [filename]"
+msgstr "Не указан входящий файл с формой отчета! Использование: ./parser.py [имяфайла]"
+
+#: parser.py:18
+#, python-format
+msgid "Opening file: %s"
+msgstr "Открываем файл: %s"
+
+#: parser.py:22
+#, python-format
+msgid "Error open file: %s"
+msgstr "Ошибка открытия файла: %s"
+
+#: parser.py:66
+msgid "Not Voting"
+msgstr "Не голосовал"
+
+#: parser.py:66
+msgid "Nay"
+msgstr "Против"
+
+#: parser.py:66
+msgid "Yea"
+msgstr "За"

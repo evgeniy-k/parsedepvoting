@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DepVotingParser 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-19 07:36+0400\n"
+"POT-Creation-Date: 2013-12-19 09:45+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,28 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: parser.py:15
-msgid "No input file! Exit."
+#: parser.py:14
+msgid "No input file with report form! Usage: ./parser.py [filename]"
+msgstr ""
+
+#: parser.py:18
+#, python-format
+msgid "Opening file: %s"
+msgstr ""
+
+#: parser.py:22
+#, python-format
+msgid "Error open file: %s"
+msgstr ""
+
+#: parser.py:66
+msgid "Not Voting"
+msgstr ""
+
+#: parser.py:66
+msgid "Nay"
+msgstr ""
+
+#: parser.py:66
+msgid "Yea"
 msgstr ""
